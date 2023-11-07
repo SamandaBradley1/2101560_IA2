@@ -1,0 +1,14 @@
+(function ($) {
+ $( document ).ready(function() {
+
+   // set max length for fields on event content type
+  $('.node-event-form #edit-title').attr("maxlength","110");
+  $('.node-event-form #edit-body-und-0-value').attr("maxlength","215");
+  $('.node-3_col_page-form #edit-field-page-name-und-0-value').attr("maxlength","60");
+  
+  $('.node-3_col_page-form #field-page-name-add-more-wrapper .description').before($('.node-3_col_page-form #edit-field-page-name-und-0-value'));
+  $('.node-3_col_page-form #field-page-name-add-more-wrapper label i').before($('.node-3_col_page-form #edit-field-page-name-und-0-value'));
+  
+ })
+}(jQuery));
+;
